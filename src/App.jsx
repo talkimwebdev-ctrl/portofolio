@@ -185,22 +185,16 @@ export default function App() {
         >
           {[
             {
-              title: "E-Commerce Modern",
-              desc: "Platform belanja online dengan integrasi pembayaran dan desain responsif.",
-              link: "https://github.com/",
+              title: "WhatSapp Multi",
+              desc: "Layanan otomatisasi WhatsApp yang memungkinkan pengiriman pesan otomatis melalui API dan bot pintar untuk kebutuhan bisnis dan developer.",
+              link: "https://www.wagets.com/",
               tech: ["React", "Node.js", "Three.js"]
             },
             {
-              title: "Dashboard Analytics",
-              desc: "Sistem pemantauan data real-time dengan visualisasi grafik interaktif.",
-              link: "https://github.com/",
+              title: "E-commerce PPOB",
+              desc: "Layanan digital terbaik untuk top up game, isi pulsa, kuota internet, dan transaksi digital lainnya. Dengan harga yang bersaing dan proses instan 24 jam, Mc Top Up siap memenuhi kebutuhan gaming dan komunikasi Anda. Tersedia berbagai pilihan top up untuk game populer seperti Mobile Legends, Free Fire, PUBG Mobile, dan lainnya, serta dukungan pengisian pulsa dan kuota semua operator, hingga e-wallet seperti Dana, Gopay, dan OVO.",
+              link: "https://www.mctopup.id/",
               tech: ["React", "Chart.js", "Firebase"]
-            },
-            {
-              title: "Company Profile 3D",
-              desc: "Website profil perusahaan dengan animasi 3D yang mendalam.",
-              link: "https://github.com/",
-              tech: ["React", "Three.js", "Framer Motion"]
             }
           ].map((project, index) => (
             <motion.div 
